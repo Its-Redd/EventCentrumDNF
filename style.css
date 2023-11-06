@@ -1,0 +1,104 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --header: rgb(69, 69, 99);
+}
+
+/* Header */
+header {
+  display: flex;
+  background-color: var(--header);
+  flex-flow: column;
+}
+
+header img {
+  width: 100%;
+}
+
+header a {
+  color: white;
+  font-size: 2em;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  justify-content: space-between;
+}
+
+nav ul li {
+  background-color: rgb(57, 76, 102);
+  width: 49.4%;
+  text-align: center;
+  border: 1px solid white;
+}
+
+nav ul li:hover {
+  background-color: rgb(224, 183, 48);
+}
+
+nav ul li:active {
+  background-color: rgb(224, 183, 48);
+}
+
+/* Top Image */
+
+main figure {
+  overflow: hidden;
+  height: 40vh;
+}
+
+main figure img {
+  height: 40vh;
+}
+
+.toptexts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+h1 {
+  color: white;
+  -webkit-text-stroke: 0.02em black;
+  margin-top: -11em;
+  font-size: 2em;
+  text-align: center;
+}
+
+.toptexts a {
+  color: rgb(255, 255, 255);
+  border: 0.01em white solid;
+  padding: 1vh 1vw;
+  max-width: 25%;
+  text-align: center;
+  justify-self: center;
+  margin-left: calc(50% - 12.5%);
+}
+
+.toptext a:active {
+  background-color: rgb(224, 183, 48);
+}
+
+article {
+  padding: 3%;
+}
+
+article p {
+  margin-top: 3%;
+}
+
+.art1 {
+  background-color: rgb(137, 221, 223);
+  color: white;
+}
